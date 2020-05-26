@@ -1,0 +1,25 @@
+mybatis:
+    #config-location: classpath:mybatis/mybatis.cfg.xml
+    mapper-locations: classpath:mappers/*.xml
+    #type-aliases-package: com.wzhi.tableserver.pojo
+server:
+    port: 8443
+    servlet:
+      #访问时请求添加项目名称
+      context-path: /ib
+spring:
+    application:
+        name: resourceshare
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://192.168.11.25:3306/resource_share?autoReconnect=true&useSSL=false
+        password: gIs123@T
+        username: root
+    banner:
+        charset: utf-8
+        location: classpath:banner.txt
+        image:
+            margin: 2
+
+
+
