@@ -27,7 +27,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <springboot.version>2.0.6.RELEASE</springboot.version>
+        <springboot.version>2.5.12</springboot.version>
         <lombok.version>1.16.22</lombok.version>
         <mysql.connector.version>5.1.47</mysql.connector.version>
         <module.version>1.0-SNAPSHOT</module.version>
